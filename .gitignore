@@ -1,0 +1,9 @@
+﻿# Ignore common OS/editor cruft
+.DS_Store
+Thumbs.db
+*.log
+
+# Node/Python/venv patterns can be added once tech stack is chosen
+node_modules/
+.env
+venv/
