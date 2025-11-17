@@ -3,8 +3,8 @@ Initial build for the Lifeline Telemedicine Platform.
 
 ## Screenshots
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/87c7fe5f-56dc-408b-9ba4-2c7c95d5f6ea" width="35%">
-  <img src="https://github.com/user-attachments/assets/afda9484-667d-4f9f-9c95-ec1649a12174" width="35%">
+  <img src="https://github.com/user-attachments/assets/b4659e59-10eb-40b8-a748-f28847b2bb85" width="35%">
+  <img src="https://github.com/user-attachments/assets/1f71eb4d-eeb9-4497-a4cd-f27d1cb7400b" width="35%">
 </p>
 
 
