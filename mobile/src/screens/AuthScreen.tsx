@@ -78,6 +78,21 @@ export default function AuthScreen({ navigation }: Props) {
           <Text style={{ fontSize: 12, color: COLORS.textSecondary }}>
             By continuing you agree to basic terms of use and privacy for this pilot.
           </Text>
+          
+        </View>
+        <Text>
+  {"\n"}
+  {"\n"}
+  {"\n"}
+  {"\n"}
+  {"\n"}
+  
+</Text>
+        <View style={{ marginBottom: 24 }}>
+          
+          <Text style={{ fontSize: 12, color: COLORS.textSecondary }}>
+          A Mini Project By Shivansh, Shivani And Shauryan(CSE 3E) 
+          </Text>
         </View>
       </View>
     </Screen>

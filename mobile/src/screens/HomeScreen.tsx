@@ -119,10 +119,33 @@ export default function HomeScreen({ navigation }: Props) {
           </Pressable>
         </View>
 
-        {/* Section label */}
+
+        <View style={{ marginBottom: 8, flexDirection: 'row', alignItems: 'center' }}>
+  <Text style={{ fontSize: 14, color: COLORS.textSecondary }}>
+    Service status: 
+  </Text>
+
+  <Text
+    style={{
+      fontSize: 12,
+      color: error ? '#ffcc00' : COLORS.textSecondary,
+      marginLeft: 4,
+    }}
+    numberOfLines={1}
+    ellipsizeMode="clip"
+  >
+    {loading
+      ? 'Checking…'
+      : error
+      ? 'Issues detected'
+      : 'All systems operational'}
+  </Text>
+</View>
+
+        {/* Section label
         <View style={{ marginBottom: 8 }}>
           <Text style={{ fontSize: 14, color: COLORS.textSecondary }}>
-            Service status
+            Service status: 
           </Text>
           <Text
             style={{
@@ -137,7 +160,7 @@ export default function HomeScreen({ navigation }: Props) {
               ? 'Issues detected'
               : 'All systems operational'}
           </Text>
-        </View>
+        </View> */}
 
         {/* Status card with clearer loading/error states and last updated time */}
         <Card style={{ marginBottom: 24 }}>
@@ -156,7 +179,7 @@ export default function HomeScreen({ navigation }: Props) {
               <Feather
                 name={error ? 'alert-triangle' : 'activity'}
                 size={18}
-                color={error ? '#ffcc00' : COLORS.textPrimary}
+                color={error ? '#000000' : COLORS.textPrimary}
               />
             </View>
             <View style={{ flex: 1 }}>
@@ -196,6 +219,8 @@ export default function HomeScreen({ navigation }: Props) {
                         fontSize: 13,
                         color: COLORS.primary,
                         textDecorationLine: 'underline',
+                        fontWeight: 'bold',
+                        textAlign: 'center',
                       }}
                     >
                       Retry
@@ -230,15 +255,16 @@ export default function HomeScreen({ navigation }: Props) {
               icon={(color) => <Feather name="video" size={20} color={color} />}
               onPress={handleStartTeleconsult}
             />
-            <Text
+            {/* <Text
               style={{
                 marginTop: 4,
                 fontSize: 12,
                 color: COLORS.textSecondary,
+                textAlign: 'center',
               }}
             >
-              Recommended • Fastest way to reach a doctor
-            </Text>
+              Recommended!
+            </Text> */}
           </View>
           <PrimaryButton
             title="View health records"
@@ -261,12 +287,14 @@ export default function HomeScreen({ navigation }: Props) {
             />
             <Text
               style={{
-                marginTop: 4,
+                 marginTop: 4,
+                marginRight: 4,
                 fontSize: 12,
                 color: COLORS.textSecondary,
+                textAlign: 'center',
               }}
             >
-              New • AI-powered symptom triage
+              New!
             </Text>
           </View>
         </View>

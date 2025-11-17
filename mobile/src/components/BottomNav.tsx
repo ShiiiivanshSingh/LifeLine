@@ -47,29 +47,6 @@ export function BottomNav({
           </Text>
         </Pressable>
 
-        {/* Right tab - Records */}
-        <Pressable
-          style={({ pressed }) => [
-            styles.tab,
-            active === 'records' && styles.tabActive,
-            pressed && styles.tabPressed,
-          ]}
-          onPress={onRecordsPress}
-        >
-          <MaterialCommunityIcons
-            name="file-document"
-            size={20}
-            color={active === 'records' ? COLORS.primary : COLORS.textSecondary}
-          />
-          <Text
-            style={[
-              styles.label,
-              { color: active === 'records' ? COLORS.primary : COLORS.textSecondary },
-            ]}
-          >
-            Records
-          </Text>
-        </Pressable>
 
         {/* Far-right tab - Profile */}
         <Pressable

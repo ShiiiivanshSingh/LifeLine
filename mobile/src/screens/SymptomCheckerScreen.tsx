@@ -11,11 +11,11 @@ const EXAMPLE_SYMPTOMS = [
   },
   {
     label: 'Stomach pain',
-    text: 'Since yesterday I have pain in my lower stomach with loose motions and no blood.',
+    text: 'Since yesterday I have had pain in my lower stomach with loose motions and no blood.',
   },
   {
     label: 'Headache & dizziness',
-    text: 'For one week I am getting headache and some dizziness when I stand up.',
+    text: 'For one week I am getting a headache and some dizziness when I stand up.',
   },
 ];
 
