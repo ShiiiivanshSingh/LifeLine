@@ -1,6 +1,13 @@
-﻿# lifeline
+# LifeLine
+Initial build for the Lifeline Telemedicine Platform.
 
-Initial scaffold for the Lifeline Telemedicine Platform.
+## Screenshots
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/87c7fe5f-56dc-408b-9ba4-2c7c95d5f6ea" width="35%">
+  <img src="https://github.com/user-attachments/assets/afda9484-667d-4f9f-9c95-ec1649a12174" width="35%">
+</p>
+
+
 
 ## Structure
 
