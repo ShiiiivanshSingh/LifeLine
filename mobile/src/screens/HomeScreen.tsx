@@ -107,7 +107,7 @@ export default function HomeScreen({ navigation }: Props) {
             <View>
               <Text style={{ fontSize: 14, color: COLORS.textSecondary }}>Good day</Text>
               <Text style={{ fontSize: 20, color: COLORS.textPrimary, fontWeight: '600' }}>
-                Lifeline
+                Shivansh!
               </Text>
             </View>
           </View>
