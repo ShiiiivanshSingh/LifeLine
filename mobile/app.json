@@ -1,10 +1,12 @@
 {
   "expo": {
-    "name": "Lifeline",
-    "slug": "lifeline",
-    "version": "1.0.0",
+    "name": "LifeLine",
+    "slug": "lifeLine",
+    "version": "1.2.0",
     "orientation": "portrait",
+    "icon": "./assets/icon.png",
     "splash": {
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#212227"
     },
